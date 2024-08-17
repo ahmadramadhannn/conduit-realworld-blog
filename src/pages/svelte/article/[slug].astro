@@ -1,0 +1,10 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import SvelteArticleView from "@/features/svelte/article/SvelteArticleView.svelte";
+
+const { slug } = Astro.params;
+---
+
+<Layout title="article page">
+  <SvelteArticleView client:load />
+</Layout>

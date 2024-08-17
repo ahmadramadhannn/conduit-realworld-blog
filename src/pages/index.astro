@@ -4,7 +4,6 @@ import { CounterSolid } from "@/components/solid";
 import { CounterReact } from "@/components/react";
 import CounterSvelte from "@/components/svelte/CounterSvelte.svelte";
 import { CounterPreact } from "@/components/preact";
-import { CounterLit } from "@/components/lit/counter-lit";
 ---
 
 <Layout title="Welcome to Astro.">
@@ -12,5 +11,4 @@ import { CounterLit } from "@/components/lit/counter-lit";
   <CounterReact client:load />
   <CounterSvelte client:load />
   <CounterPreact client:load />
-  <CounterLit client:load />
 </Layout>

@@ -4,8 +4,6 @@ import react from "@astrojs/react";
 import preact from "@astrojs/preact";
 import svelte from "@astrojs/svelte";
 
-import lit from "@astrojs/lit";
-
 // https://astro.build/config
 export default defineConfig({
   integrations: [
@@ -20,5 +18,6 @@ export default defineConfig({
       include: ["**/preact/*"]
     }),
     svelte(),
-    lit()]
+  ],
+  output: "server"
 });

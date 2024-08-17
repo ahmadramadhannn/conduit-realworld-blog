@@ -1,0 +1,10 @@
+---
+import SvelteProfileView from "@/features/svelte/profile/SvelteProfileView.svelte";
+import Layout from "@/layouts/Layout.astro";
+
+const { username } = Astro.params;
+---
+
+<Layout title="profile view">
+  <SvelteProfileView client:load />
+</Layout>
