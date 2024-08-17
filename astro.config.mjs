@@ -16,5 +16,6 @@ export default defineConfig({
     compat: true,
     include: ["**/preact/*"]
   }), svelte(), alpinejs()],
-  output: "server"
+  output: "server",
+  prefetch: true
 });

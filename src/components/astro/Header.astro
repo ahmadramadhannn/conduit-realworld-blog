@@ -6,17 +6,21 @@ const prefix = pathname.split("/")[1];
 
 <nav class="navbar navbar-light">
   <div class="container">
-    <a class="navbar-brand" href=`/${prefix}`>conduit</a>
+    <a data-astro-prefetch class="navbar-brand" href=`/${prefix}`>conduit</a>
     <ul class="nav navbar-nav pull-xs-right">
       <li class="nav-item">
         <!-- Add "active" class when you're on that page" -->
-        <a class="nav-link active" href=".">Home</a>
+        <a data-astro-prefetch class="nav-link active" href=".">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href={`/${prefix}/login`}>Sign in</a>
+        <a data-astro-prefetch class="nav-link" href={`/${prefix}/login`}>
+          Sign in
+        </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href=`/${prefix}/register`>Sign up</a>
+        <a data-astro-prefetch class="nav-link" href=`/${prefix}/register`
+          >Sign up</a
+        >
       </li>
     </ul>
   </div>
