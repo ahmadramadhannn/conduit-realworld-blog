@@ -1,0 +1,11 @@
+---
+import PreactProfileView from "@/features/preact/profile/PreactProfileView";
+import Layout from "@/layouts/Layout.astro";
+
+const { username } = Astro.params;
+console.log(username);
+---
+
+<Layout title="preact profile">
+  <PreactProfileView client:load />
+</Layout>
