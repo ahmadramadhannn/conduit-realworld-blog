@@ -11,4 +11,13 @@ import { CounterPreact } from "@/components/preact";
   <CounterReact client:load />
   <CounterSvelte client:load />
   <CounterPreact client:load />
+
+  <div x-data="{count: 0, show: false}">
+    <p>count now in alpine : <span x-text="count"></span></p>
+
+    <button x-on:mousedown="count++">increment count</button>
+    <button @mousedown="show = !show">toggle secret data</button>
+
+    <p x-show="show">this is secret data</p>
+  </div>
 </Layout>
