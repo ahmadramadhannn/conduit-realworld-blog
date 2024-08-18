@@ -19,4 +19,4 @@ export default defineConfig({
   }), svelte(), alpinejs(), vue()],
   output: "server",
   prefetch: true
-});
+}); 
