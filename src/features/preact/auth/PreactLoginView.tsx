@@ -1,4 +1,3 @@
-
 export default function PreactLoginView() {
   return (
     <div class="auth-page">
@@ -16,16 +15,26 @@ export default function PreactLoginView() {
 
             <form>
               <fieldset class="form-group">
-                <input class="form-control form-control-lg" type="text" placeholder="Email" />
+                <input
+                  class="form-control form-control-lg"
+                  type="text"
+                  placeholder="Email"
+                />
               </fieldset>
               <fieldset class="form-group">
-                <input class="form-control form-control-lg" type="password" placeholder="Password" />
+                <input
+                  class="form-control form-control-lg"
+                  type="password"
+                  placeholder="Password"
+                />
               </fieldset>
-              <button class="btn btn-lg btn-primary pull-xs-right">Sign in</button>
+              <button class="btn btn-lg btn-primary pull-xs-right">
+                Sign in
+              </button>
             </form>
           </div>
         </div>
       </div>
     </div>
-  )
+  );
 }

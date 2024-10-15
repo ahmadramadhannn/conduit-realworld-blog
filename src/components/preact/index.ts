@@ -1,1 +1,1 @@
-export * from "./CounterPreact"
+export * from "./CounterPreact";

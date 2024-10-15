@@ -1,1 +1,1 @@
-export * from "./CounterReact"
+export * from "./CounterReact";

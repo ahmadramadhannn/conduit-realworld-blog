@@ -1,4 +1,3 @@
-
 export default function ReactSettingsView() {
   return (
     <div class="settings-page">
@@ -14,20 +13,33 @@ export default function ReactSettingsView() {
             <form>
               <fieldset>
                 <fieldset class="form-group">
-                  <input class="form-control" type="text" placeholder="URL of profile picture" />
+                  <input
+                    class="form-control"
+                    type="text"
+                    placeholder="URL of profile picture"
+                  />
                 </fieldset>
                 <fieldset class="form-group">
-                  <input class="form-control form-control-lg" type="text" placeholder="Your Name" />
+                  <input
+                    class="form-control form-control-lg"
+                    type="text"
+                    placeholder="Your Name"
+                  />
                 </fieldset>
                 <fieldset class="form-group">
                   <textarea
                     class="form-control form-control-lg"
                     rows={8}
                     placeholder="Short bio about you"
-                  ></textarea>
+                  >
+                  </textarea>
                 </fieldset>
                 <fieldset class="form-group">
-                  <input class="form-control form-control-lg" type="text" placeholder="Email" />
+                  <input
+                    class="form-control form-control-lg"
+                    type="text"
+                    placeholder="Email"
+                  />
                 </fieldset>
                 <fieldset class="form-group">
                   <input
@@ -36,14 +48,18 @@ export default function ReactSettingsView() {
                     placeholder="New Password"
                   />
                 </fieldset>
-                <button class="btn btn-lg btn-primary pull-xs-right">Update Settings</button>
+                <button class="btn btn-lg btn-primary pull-xs-right">
+                  Update Settings
+                </button>
               </fieldset>
             </form>
             <hr />
-            <button class="btn btn-outline-danger">Or click here to logout.</button>
+            <button class="btn btn-outline-danger">
+              Or click here to logout.
+            </button>
           </div>
         </div>
       </div>
     </div>
-  )
+  );
 }

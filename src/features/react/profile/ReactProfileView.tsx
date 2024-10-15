@@ -1,4 +1,3 @@
-
 export default function ReactProfileView() {
   return (
     <div class="profile-page">
@@ -9,8 +8,8 @@ export default function ReactProfileView() {
               <img src="http://i.imgur.com/Qr71crq.jpg" class="user-img" />
               <h4>Eric Simons</h4>
               <p>
-                Cofounder @GoThinkster, lived in Aol's HQ for a few months, kinda looks like Peeta from
-                the Hunger Games
+                Cofounder @GoThinkster, lived in Aol's HQ for a few months,
+                kinda looks like Peeta from the Hunger Games
               </p>
               <button class="btn btn-sm btn-outline-secondary action-btn">
                 <i class="ion-plus-round"></i>
@@ -41,7 +40,9 @@ export default function ReactProfileView() {
 
             <div class="article-preview">
               <div class="article-meta">
-                <a href="/profile/eric-simons"><img src="http://i.imgur.com/Qr71crq.jpg" /></a>
+                <a href="/profile/eric-simons">
+                  <img src="http://i.imgur.com/Qr71crq.jpg" />
+                </a>
                 <div class="info">
                   <a href="/profile/eric-simons" class="author">Eric Simons</a>
                   <span class="date">January 20th</span>
@@ -50,20 +51,27 @@ export default function ReactProfileView() {
                   <i class="ion-heart"></i> 29
                 </button>
               </div>
-              <a href="/article/how-to-buil-webapps-that-scale" class="preview-link">
+              <a
+                href="/article/how-to-buil-webapps-that-scale"
+                class="preview-link"
+              >
                 <h1>How to build webapps that scale</h1>
                 <p>This is the description for the post.</p>
                 <span>Read more...</span>
                 <ul class="tag-list">
                   <li class="tag-default tag-pill tag-outline">realworld</li>
-                  <li class="tag-default tag-pill tag-outline">implementations</li>
+                  <li class="tag-default tag-pill tag-outline">
+                    implementations
+                  </li>
                 </ul>
               </a>
             </div>
 
             <div class="article-preview">
               <div class="article-meta">
-                <a href="/profile/albert-pai"><img src="http://i.imgur.com/N4VcUeJ.jpg" /></a>
+                <a href="/profile/albert-pai">
+                  <img src="http://i.imgur.com/N4VcUeJ.jpg" />
+                </a>
                 <div class="info">
                   <a href="/profile/albert-pai" class="author">Albert Pai</a>
                   <span class="date">January 20th</span>
@@ -73,7 +81,10 @@ export default function ReactProfileView() {
                 </button>
               </div>
               <a href="/article/the-song-you" class="preview-link">
-                <h1>The song you won't ever stop singing. No matter how hard you try.</h1>
+                <h1>
+                  The song you won't ever stop singing. No matter how hard you
+                  try.
+                </h1>
                 <p>This is the description for the post.</p>
                 <span>Read more...</span>
                 <ul class="tag-list">
@@ -95,5 +106,5 @@ export default function ReactProfileView() {
         </div>
       </div>
     </div>
-  )
+  );
 }
